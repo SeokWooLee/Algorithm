@@ -20,7 +20,6 @@
 
 void runAlgorithm(void);
 void printMinimumRentalCost(int, int, int[]);
-float getAverageCost(int days, int costsForRentalDays[], int index);
 
 int main(void)
 {
@@ -49,25 +48,13 @@ void runAlgorithm(void)
 void printMinimumRentalCost(int availableRentalDays, int fixedNumberOfTeams, int costsForRentalDays[])
 {
 	float min = MAX_COST;
-	for (int days = fixedNumberOfTeams; days <= availableRentalDays; days++) {
-		for (int i=0; i < availableRentalDays - days; i++) {
-			float averageCost = getAverageCost(days, costsForRentalDays, i);
-			if (averageCost < min) {
-				min = averageCost;
-			}
-		}
+	int availableTeamNumbers = availableRentalDays - fixedNumberOfTeams + 1;
+	float minimumCosts[availableTeamNumbers];
+	for (int i = 0; i < availableTeamNumbers; i++) {
+		minimumCosts[i] = MAX_COST;
 	}
+
+	
 
 	printf("%f\n", min);
-}
-
-float getAverageCost(int days, int costsForRentalDays[], int index)
-{
-	float averageCost = 0;
-	for (int i = 0; i < days; i++) {
-		averageCost += costsForRentalDays[index];
-		index++;
-	}
-
-	return averageCost / days;
 }
