@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(FindNumbersWithEvenNumberOfDigits().solve(input: [12,345,2,6,7896]))
+print(SquaresOfASortedArray().solve(input: [-7,-3,2,3,11]))

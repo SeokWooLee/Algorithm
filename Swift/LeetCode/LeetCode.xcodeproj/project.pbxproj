@@ -11,6 +11,7 @@
 		8D040CD22586B16C00E9B5C7 /* MaxConsecutiveOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D040CD12586B16C00E9B5C7 /* MaxConsecutiveOnes.swift */; };
 		8D040CD62586B18800E9B5C7 /* Solvable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D040CD52586B18800E9B5C7 /* Solvable.swift */; };
 		8D4817772586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */; };
+		8D48177A2586B6DC0087FD69 /* SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		8D040CD12586B16C00E9B5C7 /* MaxConsecutiveOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxConsecutiveOnes.swift; sourceTree = "<group>"; };
 		8D040CD52586B18800E9B5C7 /* Solvable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvable.swift; sourceTree = "<group>"; };
 		8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
+		8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,8 @@
 		8D040CC62586B12E00E9B5C7 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				8D040CD82586B1B900E9B5C7 /* Base */,
 				8D040CC72586B12E00E9B5C7 /* main.swift */,
+				8D040CD82586B1B900E9B5C7 /* Base */,
 				8D040CD92586B1C200E9B5C7 /* Solutions */,
 			);
 			path = LeetCode;
@@ -83,6 +85,7 @@
 			children = (
 				8D040CD12586B16C00E9B5C7 /* MaxConsecutiveOnes.swift */,
 				8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */,
+				8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */,
 			);
 			path = "Arrays 101";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D040CD22586B16C00E9B5C7 /* MaxConsecutiveOnes.swift in Sources */,
+				8D48177A2586B6DC0087FD69 /* SquaresOfASortedArray.swift in Sources */,
 				8D040CC82586B12E00E9B5C7 /* main.swift in Sources */,
 				8D040CD62586B18800E9B5C7 /* Solvable.swift in Sources */,
 				8D4817772586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
