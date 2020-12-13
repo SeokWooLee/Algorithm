@@ -8,6 +8,7 @@
 import Foundation
 
 /// Given a binary array, find the maximum number of consecutive 1s in this array.
+/// https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3238/
 struct MaxConsecutiveOnes: Solvable {
     
     func solve(input: [Int]) -> Int {

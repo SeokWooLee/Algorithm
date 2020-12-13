@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(MaxConsecutiveOnes().solve(input: [1, 1, 0, 1, 1, 1]))
+print(FindNumbersWithEvenNumberOfDigits().solve(input: [12,345,2,6,7896]))
