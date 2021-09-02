@@ -83,9 +83,7 @@
 		8D040CD02586B14900E9B5C7 /* Arrays 101 */ = {
 			isa = PBXGroup;
 			children = (
-				8D040CD12586B16C00E9B5C7 /* MaxConsecutiveOnes.swift */,
-				8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */,
-				8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */,
+				CE297D0526E0A3C800CC2FCE /* Introduction */,
 			);
 			path = "Arrays 101";
 			sourceTree = "<group>";
@@ -104,6 +102,16 @@
 				8D040CCF2586B13A00E9B5C7 /* Learn */,
 			);
 			path = Solutions;
+			sourceTree = "<group>";
+		};
+		CE297D0526E0A3C800CC2FCE /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				8D040CD12586B16C00E9B5C7 /* MaxConsecutiveOnes.swift */,
+				8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */,
+				8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */,
+			);
+			path = Introduction;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
