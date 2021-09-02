@@ -14,6 +14,7 @@
 		8D48177A2586B6DC0087FD69 /* SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */; };
 		CE297D0826E0A43100CC2FCE /* DuplicateZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */; };
 		CE297D0A26E0AD0100CC2FCE /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE297D0926E0AD0100CC2FCE /* MergeSortedArray.swift */; };
+		CE297D0D26E0BC2700CC2FCE /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE297D0C26E0BC2700CC2FCE /* RemoveElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 		CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateZeros.swift; sourceTree = "<group>"; };
 		CE297D0926E0AD0100CC2FCE /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
+		CE297D0C26E0BC2700CC2FCE /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				CE297D0526E0A3C800CC2FCE /* Introduction */,
 				CE297D0626E0A41C00CC2FCE /* Inserting Items Into an Array */,
+				CE297D0B26E0BBFB00CC2FCE /* Deleting Items From an Array */,
 			);
 			path = "Arrays 101";
 			sourceTree = "<group>";
@@ -126,6 +129,14 @@
 				CE297D0926E0AD0100CC2FCE /* MergeSortedArray.swift */,
 			);
 			path = "Inserting Items Into an Array";
+			sourceTree = "<group>";
+		};
+		CE297D0B26E0BBFB00CC2FCE /* Deleting Items From an Array */ = {
+			isa = PBXGroup;
+			children = (
+				CE297D0C26E0BC2700CC2FCE /* RemoveElement.swift */,
+			);
+			path = "Deleting Items From an Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				8D040CC82586B12E00E9B5C7 /* main.swift in Sources */,
 				8D040CD62586B18800E9B5C7 /* Solvable.swift in Sources */,
 				8D4817772586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
+				CE297D0D26E0BC2700CC2FCE /* RemoveElement.swift in Sources */,
 				CE297D0826E0A43100CC2FCE /* DuplicateZeros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
