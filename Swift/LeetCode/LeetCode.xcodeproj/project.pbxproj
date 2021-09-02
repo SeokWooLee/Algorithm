@@ -13,6 +13,7 @@
 		8D4817772586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */; };
 		8D48177A2586B6DC0087FD69 /* SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */; };
 		CE297D0826E0A43100CC2FCE /* DuplicateZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */; };
+		CE297D0A26E0AD0100CC2FCE /* MergeSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE297D0926E0AD0100CC2FCE /* MergeSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
 		8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfASortedArray.swift; sourceTree = "<group>"; };
 		CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateZeros.swift; sourceTree = "<group>"; };
+		CE297D0926E0AD0100CC2FCE /* MergeSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */,
+				CE297D0926E0AD0100CC2FCE /* MergeSortedArray.swift */,
 			);
 			path = "Inserting Items Into an Array";
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				8D040CD22586B16C00E9B5C7 /* MaxConsecutiveOnes.swift in Sources */,
 				8D48177A2586B6DC0087FD69 /* SquaresOfASortedArray.swift in Sources */,
+				CE297D0A26E0AD0100CC2FCE /* MergeSortedArray.swift in Sources */,
 				8D040CC82586B12E00E9B5C7 /* main.swift in Sources */,
 				8D040CD62586B18800E9B5C7 /* Solvable.swift in Sources */,
 				8D4817772586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,

@@ -7,6 +7,5 @@
 
 import Foundation
 
-var a = [1,0,2,3,0,4,5,0]
-DuplicateZeros().duplicateZeros(&a)
-print(a)
+var a = [0]
+MergeSortedArray().merge(&a, 0, [1], 1)
