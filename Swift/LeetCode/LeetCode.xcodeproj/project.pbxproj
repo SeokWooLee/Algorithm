@@ -12,6 +12,7 @@
 		8D040CD62586B18800E9B5C7 /* Solvable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D040CD52586B18800E9B5C7 /* Solvable.swift */; };
 		8D4817772586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */; };
 		8D48177A2586B6DC0087FD69 /* SquaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */; };
+		CE297D0826E0A43100CC2FCE /* DuplicateZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		8D040CD52586B18800E9B5C7 /* Solvable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvable.swift; sourceTree = "<group>"; };
 		8D4817762586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindNumbersWithEvenNumberOfDigits.swift; sourceTree = "<group>"; };
 		8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfASortedArray.swift; sourceTree = "<group>"; };
+		CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateZeros.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				CE297D0526E0A3C800CC2FCE /* Introduction */,
+				CE297D0626E0A41C00CC2FCE /* Inserting Items Into an Array */,
 			);
 			path = "Arrays 101";
 			sourceTree = "<group>";
@@ -112,6 +115,14 @@
 				8D4817792586B6DC0087FD69 /* SquaresOfASortedArray.swift */,
 			);
 			path = Introduction;
+			sourceTree = "<group>";
+		};
+		CE297D0626E0A41C00CC2FCE /* Inserting Items Into an Array */ = {
+			isa = PBXGroup;
+			children = (
+				CE297D0726E0A43100CC2FCE /* DuplicateZeros.swift */,
+			);
+			path = "Inserting Items Into an Array";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				8D040CC82586B12E00E9B5C7 /* main.swift in Sources */,
 				8D040CD62586B18800E9B5C7 /* Solvable.swift in Sources */,
 				8D4817772586B5F10087FD69 /* FindNumbersWithEvenNumberOfDigits.swift in Sources */,
+				CE297D0826E0A43100CC2FCE /* DuplicateZeros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +312,11 @@
 		8D040CCC2586B12E00E9B5C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SUZFY35983;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -311,10 +324,11 @@
 		8D040CCD2586B12E00E9B5C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SUZFY35983;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

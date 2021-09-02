@@ -7,4 +7,6 @@
 
 import Foundation
 
-print(SquaresOfASortedArray().solve(input: [-7,-3,2,3,11]))
+var a = [1,0,2,3,0,4,5,0]
+DuplicateZeros().duplicateZeros(&a)
+print(a)
