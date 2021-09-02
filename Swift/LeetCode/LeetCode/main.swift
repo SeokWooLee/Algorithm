@@ -7,5 +7,5 @@
 
 import Foundation
 
-var a = [0,1,2,2,3,0,4,2]
-print(RemoveElement().removeElement(&a, 2))
+var a = [1, 1, 2]
+print(RemoveDuplicatesFromSortedArray().removeDuplicates(&a))
